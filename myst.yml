@@ -1,13 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: 'Demystifying MyST: The most powerful preprint authoring tool'
-  subtitle: A template for reproducible preprints
-  thebe:
-    binder:
-      url: https://terrarium.evidencepub.io
-      repo: neurolibre/mystical-article # Production will override this.
-      ref: HEAD # Production will override this.
+  title: 'Toward a woven  literature: Open-source infrastructure for reproducible publishing'
   authors:
     - name: Agah Karakuzu
       orcid: 0000-0001-7283-271X
@@ -20,16 +14,7 @@ project:
       github: agahkarakuzu
       roles:
         - Conceptualization
-        - Software
         - Writing – original draft
-    - name: Robo Neuro
-      affiliations: polymtl
-      equal_contributor: true
-      github: roboneurolibre
-      note: Roboneuro is a friendly publishing bot who fails the Turing test.
-      roles:
-        - Project administration
-        - Writing – review & editing
   affiliations:
     - id: polymtl
       institution: NeuroPoly Lab, Polytechnique Montreal
@@ -53,9 +38,11 @@ project:
       postal_code: H1T 1C8
   keywords:
     - reproducible publishing
-    - mystmd
-    - next-gen preprints
-  github: https://github.com/neurolibre/mystical-article
+    - interactive articles
+    - reproducible research
+    - open science
+    - open access
+  github: https://github.com/agahkarakuzu/woven
   banner: static/banner.jpg
   venue: Neurolibre #Production will override this.
   subject: Living Preprint # Production will override this.
@@ -67,15 +54,32 @@ project:
     content: CC-BY-4.0
     code: MIT
   abbreviations:
+    APC: Article Processing Charge
+    CAP: Continious Article Publishing 
+    LLM: Large Language Model
+    AI: Artificial Intelligence
+    STEM: Science, Technology, Engineering, and Mathematics
+    ARC-AGI: Abstract and Reasoning Corpus for Artificial General Intelligence
+    BOOMER: Barely Operational and Obsolete Manuscript Evaluation Rituals
     MyST: Markedly Structured Markdown
+    DOI: Digital Object Identifier
+    JOSS: Journal of Open Source Software
+    EB: Executable Books
+    MRI: Magnetic Resonance Imaging
+    GPU: Graphics Processing Unit
+    TPU: Tensor Processing Unit
+    HTML: HyperText Markup Language
+    IPFS: InterPlanetary File System
+    CVMFS: CERN Virtual Machine File System
+    COAR: Confederation of Open Access Repositories
+    ISMRM: International Society for Magnetic Resonance in Medicine
+  toc:
+    - file: paper.md
+  exclude:
+    - README.md
   bibliography:
     - paper.bib
-  resources:
-    - content/figure1.ipynb
-    - content/figure2.md
 site:
-  template: article-theme # Or book-theme
+  template: article-theme
   options:
-    favicon: static/favicon.ico # Production will override this for branding.
-    logo: static/logo.png # Production will override this for branding.
-    twitter: neurolibre
+    twitter: agahkarakuzu
