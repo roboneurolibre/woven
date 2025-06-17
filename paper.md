@@ -27,14 +27,21 @@ Today, open-source technologies and reproducibility-focused initiatives present 
 :::{admonition} Outline
 The review proceeds in three movements:
 
-1) A diagnostic analysis, exposing the technical limitations and economic asymmetries of the legacy publishing complex. We trace how the infrastructure meant to serve science has instead come to extract disproportionate value from it, and how this dynamic has delayed the adoption of more open, interactive modalities.
+1) 🩺 A diagnostic analysis, exposing the technical limitations and economic asymmetries of the legacy publishing complex. We trace how the infrastructure meant to serve science has instead come to extract disproportionate value from it, and how this dynamic has delayed the adoption of more open, interactive modalities.
 
-2) A survey of enabling technologies, charting the open-source tools and cloud platforms that allow authors to create interactive, executable “living publications.” We highlight NeuroLibre as a case study for end-to-end reproducibility at scale—demonstrating how code, data, and computational environments can be woven together into a cohesive and shareable research object.
+2) 🔎 A survey of enabling technologies, charting the open-source tools and cloud platforms that allow authors to create interactive, executable “living publications.” We highlight NeuroLibre as a case study for end-to-end reproducibility at scale—demonstrating how code, data, and computational environments can be woven together into a cohesive and shareable research object.
 
-3) A procedural outlook, exploring how distributed peer review, workflow modularization, and new incentive models can support a more transparent and dynamic publishing ecosystem. We introduce the concept of *woven literature,* building on Knuth’s original notion of literate programming, to describe publications where prose, computation, and verification coexist and evolve together.
+3) 👥 A procedural outlook, exploring how distributed peer review, workflow modularization, and new incentive models can support a more transparent and dynamic publishing ecosystem. We introduce the concept of *woven literature,* building on Knuth’s original notion of literate programming, to describe publications where prose, computation, and verification coexist and evolve together.
 :::
 
-Throughout, practical considerations are emphasized: What are the resource boundaries of browser-based execution? How can large datasets be reproducibly integrated without overwhelming readers or platforms? When must upstream, resource-intensive workflows hand off to lighter, reader-facing phases of analysis? And how can new tools ensure traceability between raw inputs and final results?
+:::{admonition} Questions
+Throughout, practical considerations are emphasized: 
+
+* What are the resource boundaries of browser-based execution? 
+* How can large datasets be reproducibly integrated without overwhelming readers or platforms? 
+* When must upstream, resource-intensive workflows hand off to lighter, reader-facing phases of analysis? 
+* How can new tools ensure traceability between raw inputs and final results?
+:::
 
 By combining critical analysis with actionable insights, this review aims to equip researchers, developers, and infrastructure providers with a roadmap for creating, curating, and sustaining the next generation of scientific literature.
 
@@ -62,7 +69,7 @@ Before turning to the elements of modern solutions that can enable true continui
 
 Even a decade before large language models (LLMs) made their sweeping entrance into scientific prose [@Meyer_2023], the oligopolistic nature of the publishing ecosystem had already been described as the most profitable obsolete technology in history [@Schmitt_2014]. 
 
-Against this backdrop of stagnation, the pace of innovation in AI has been nothing short of astonishing. The second quarter of 2025, just four days before the writing of this manuscript, witnessed the introduction of ARC-AGI-2, a new benchmark in the Abstraction and Reasoning Corpus for Artificial General Intelligence [@Chollet_Knoop_Kamradt_Landers_Pinkard_2025]. This update was prompted by a rapid rise in top performance on the previous benchmark, which increased from 34% in early 2024 to 88% by the end of the year (for the latest leaderboard see [@ARC-AGI_Community_2025]). For comparison, members of the general public typically score around 77%, while STEM graduates score approximately 98%. 
+Against this backdrop of stagnation, the pace of innovation in AI has been nothing short of astonishing. The second quarter of 2025, just four days before the writing of this manuscript, witnessed the introduction of ARC-AGI-2, a new benchmark in the Abstraction and Reasoning Corpus for Artificial General Intelligence [@Chollet_Knoop_Kamradt_Landers_Pinkard_2025]: [https://arcprize.org](https://arcprize.org). This update was prompted by a rapid rise in top performance on the previous benchmark, which increased from `34%` in early 2024 to `88%` by the end of the year (for the latest leaderboard see [@ARC-AGI_Community_2025]). For comparison, members of the general public typically score around `77%`, while STEM graduates score approximately `98%`. 
 
 As LLMs approach expert-level proficiency in generating coherent and convincing prose so rapidly that we need to move the goalpost in favor of humans, it becomes increasingly important to ask: **what remains of a publication when we remove the prose** [@Stikov_2022]**?**
 
