@@ -1,7 +1,7 @@
 ---
 ---
 
-# INTRODUCTION
+# Introduction
 
 The trajectory of scholarly communication is marked by transformative technological shifts. It began with the meticulously hand-copied manuscripts of medieval scholars. This was followed by the advent of the first academic journals in the 17th century [@Andrade_1965]. In the 19th and early 20th centuries, typewritten manuscripts were circulated via postal services. By the late 20th century, the digital age ushered in online platforms that enabled widespread electronic dissemination and archival of research articles. While these developments dramatically increased accessibility, they did not fundamentally alter the structure or format of scientific publishing. Most articles remained static PDFs, detached from the underlying data, code, and computational environments that produced their findings.
 
@@ -158,7 +158,7 @@ Interestingly, preprints have not only made publicly funded research more access
 
 A key contributor to advancing this procedural transformation has been the Confederation of Open Access Repositories (COAR), which supports the development of aligned open access infrastructure through a global network of universities, funders, and research institutions [@Shearer_2015;@Shearer_2024]. One of its notable initiatives, COAR Notify, proposes a decentralized mechanism to connect research outputs hosted in distributed repositories with external services (such as overlay journals and open peer review platforms) using linked-data notifications [@Walk_Sompel_Shearer_2020]. This effort stands at the intersection of numerous preprint servers (e.g., arXiv, bioRxiv, medRxiv, Zenodo, Research Square, SciFLO, and Center of Open Science, to name a few), and more importantly, preprint review initiatives such as PreReview ([https://prereview.org](https://prereview.org)), Peer Community in (PCI, [https://peercommunityin.org](https://peercommunityin.org/)), eLife ([https://elifesciences.org](https://elifesciences.org)), Plaudit ([https://plaudit.pub](https://plaudit.pub)), SciPost ([https://scipost.org](https://scipost.org/)) , and Peeref ([https://www.peeref.com](https://www.peeref.com/)). Collectively, these initiatives represent a growing movement to build a more open, interoperable, and participatory scholarly communication ecosystem where peer review and evaluation are no longer tied to the traditional boundaries of legacy publishers [@Henriques_Rzayeva_Pinfield_Waltman_2023].
 
-# RESULTS
+# Results
 
 [](#fig3) highlights the structural shift from conventional publishing to a reproducible research article. On the left, the static PDF presents frozen text, figures, and code snippets, which offer limited transparency or reusability [](https://doi.org/10.52294/001c.87681). On the right, the same study is rendered as a next-gen article on NeuroLibre, where narrative prose is woven together with executable code, openly accessible data, and an embedded runtime [@Salo_2022_nl]. This format allows readers to interact with the actual software package and learn about its applications in real-time with zero installation. The NiMARE paper is one of 18 living preprints hosted on NeuroLibre that illustrate this paradigm in practice: [https://neurolibre.org](https://neurolibre.org). 
 
@@ -182,7 +182,7 @@ On the right, a Plotly Dash dashboard supports the ISMRM T1 Mapping Reproducibil
 
 Taken together, these examples illustrate how the boundaries of the scientific article can be reimagined as an interactive medium, where figures evolve from static illustrations into entry points for executable environments, rich datasets, and live analytical tools.
 
-# **DISCUSSION**
+# Discussion
 
 ## ***Adoption of next-gen publishing falters from incentives, not interfaces***
 
@@ -218,13 +218,13 @@ An example representative of Trajectory B is the living preprint resulting from 
 
 An example of Trajectory C can be found in a living preprint by Wang et al. [@Wang_2023], which benchmarks the reproducibility of resting-state fMRI denoising strategies across varying preprocessing pipelines. The upstream processing required to generate these results involved running multiple fMRI pipelines under different parameter configurations, an operation that demanded high-performance computing resources beyond the scope of a typical interactive article. As such, only the downstream derivatives, including statistical analysis and visualization of the precomputed outputs, were integrated into the living preprint. This allowed readers to interact with and explore the results reproducibly, even though the computationally intensive preprocessing steps had to be completed externally.
 
-##   ***Seamless continuation from upstream workflows to reproducible publishing***
+## ***Seamless continuation from upstream workflows to reproducible publishing***
 
 Integrating outputs from upstream stages into next-gen articles in a reliable and reproducible way remains an open challenge. Fortunately, platforms like NeuroDesk have begun to address this gap by providing portable, containerized environments capable of running complex neuroimaging workflows [@Renton_2024]. NeuroDesk enables reproducible execution and captures the provenance between inputs and outputs, ensuring traceability across computational stages. Similarly, CBRAIN provides a web-based interface to high-performance computing resources, enabling researchers to run large-scale data analyses while preserving metadata and provenance [@Sherif_2014]. Another example is BrainLife, focusing on reproducible neuroscience pipelines, offering cloud-based, interactive execution of modular workflows [@Hayashi_2024]. More recently, O2S2PARC was introduced as a cloud-based platform with a partial pay-per-use model to support the execution and sharing of multiscale computational models in life sciences [@Guidon_2025].
 
 An integration between NeuroLibre and such platforms could offer a seamless continuation from heavy upstream processing to interactive, downstream communication, bridging the full research workflow that can extend from the study inception to publication [@Karakuzu_2025;@Niso_2022]. Emerging infrastructures, such as Orvium ([https://orvium.io)](https://orvium.io/) , and DeSci Nodes ([https://nodes.desci.com](https://nodes.desci.com)), further open possibilities for verifiable, tamper-proof records of these computational steps on blockchain, encouraging new models of trust and attribution in scholarly publishing [@Niya_2019].
 
-# CONCLUSION
+# Conclusion
 
 The ultimate convergence of technical and procedural publishing innovations reviewed in this article will mark a critical turning point in scholarly communication. By integrating reproducibility-aware open infrastructure with distributed models of peer review, scholarly publishing is approaching the replacement of BOOMER’s static, one-shot logic with the continuous, collaborative, and verifiable attributes of the woven literature.
 
@@ -232,7 +232,7 @@ A Turkish expression, *"ilmek ilmek dokumak"* literally means "*to weave stitch 
 
 As we move forward, this stitch-by-stitch approach offers not just a more reproducible and transparent future, but also one that values the craft of knowledge creation itself—a quality more vital than ever in an era shaped by the rapid rise of generative AI and automated content. The threads are already in motion; what lies ahead is ours to weave. We can choose to remain entangled in the static logic of the BOOMER paradigm, or co-create a knowledge network that evolves through transclusion, modularity, and reproducibility. 
 
-# **ACKNOWLEDGEMENTS**
+# Acknowledgements
 
 I thank Nikola Stikov for insightful discussions, for reading the initial draft of this manuscript, and for providing thoughtful feedback. I am also grateful to the members of the Canadian Open Neuroscience Platform (CONP) Publishing Committee and to the researchers who contributed to the funding and development of NeuroLibre, including, but not limited to, Elizabeth DuPre, Lune Bellec, Jean-Baptiste Poline, Mathieu Boudreau, Patrick Bermudez, Samir Das, and Alan C. Evans.
 
