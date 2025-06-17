@@ -1,85 +1,89 @@
-# See docs at: https://mystmd.org/guide/frontmatter
-version: 1
 project:
-  title: 'Toward a woven  literature: Open-source infrastructure for reproducible publishing'
-  authors:
-    - name: Agah Karakuzu
-      orcid: 0000-0001-7283-271X
-      affiliations: polymtl; mhi
-      corresponding: true
-      email: agah.karakuzu@polymtl.ca
-      twitter: agahkarakuzu
-      equal_contributor: true
-      url: https://agah.dev
-      github: agahkarakuzu
-      roles:
-        - Conceptualization
-        - Writing – original draft
-  affiliations:
-    - id: polymtl
-      institution: NeuroPoly Lab, Polytechnique Montreal
-      ror: https://ror.org/05f8d4e86
-      isni: 0000 0004 0435 3292
-      department: Electrical Engineering
-      address: 2500 Chem. de Polytechnique
-      city: Montreal
-      region: Quebec
-      country: Canada
-      postal_code: H3T 1J4
-      phone: 1 (514) 340-4711
-    - id: mhi
-      institution: Montreal Heart Institute
-      ror: https://ror.org/03vs03g62
-      isni: 0000 0000 8995 9090
-      address: 5000 Rue Belanger
-      city: Montreal
-      region: Quebec
-      country: Canada
-      postal_code: H1T 1C8
-  keywords:
-    - reproducible publishing
-    - interactive articles
-    - reproducible research
-    - open science
-    - open access
-  github: https://github.com/agahkarakuzu/woven
-  banner: static/banner.jpg
-  venue: Neurolibre #Production will override this.
-  subject: Living Preprint # Production will override this.
-  numbering:
-    headings: true
-  doi: 10.55458/neurolibre.xxxxx # Production will override this.
-  open_access: true
-  license:
-    content: CC-BY-4.0
-    code: MIT
   abbreviations:
-    APC: Article Processing Charge
-    CAP: Continious Article Publishing 
-    LLM: Large Language Model
     AI: Artificial Intelligence
-    STEM: Science, Technology, Engineering, and Mathematics
+    APC: Article Processing Charge
     ARC-AGI: Abstract and Reasoning Corpus for Artificial General Intelligence
     BOOMER: Barely Operational and Obsolete Manuscript Evaluation Rituals
-    MyST: Markedly Structured Markdown
+    CAP: Continious Article Publishing
+    COAR: Confederation of Open Access Repositories
+    CVMFS: CERN Virtual Machine File System
     DOI: Digital Object Identifier
-    JOSS: Journal of Open Source Software
     EB: Executable Books
-    MRI: Magnetic Resonance Imaging
     GPU: Graphics Processing Unit
-    TPU: Tensor Processing Unit
     HTML: HyperText Markup Language
     IPFS: InterPlanetary File System
-    CVMFS: CERN Virtual Machine File System
-    COAR: Confederation of Open Access Repositories
     ISMRM: International Society for Magnetic Resonance in Medicine
-  toc:
-    - file: paper.md
-  exclude:
-    - README.md
+    JOSS: Journal of Open Source Software
+    LLM: Large Language Model
+    MRI: Magnetic Resonance Imaging
+    MyST: Markedly Structured Markdown
+    STEM: Science, Technology, Engineering, and Mathematics
+    TPU: Tensor Processing Unit
+  affiliations:
+  - address: 2500 Chem. de Polytechnique
+    city: Montreal
+    country: Canada
+    department: Electrical Engineering
+    id: polymtl
+    institution: NeuroPoly Lab, Polytechnique Montreal
+    isni: 0000 0004 0435 3292
+    phone: 1 (514) 340-4711
+    postal_code: H3T 1J4
+    region: Quebec
+    ror: https://ror.org/05f8d4e86
+  - address: 5000 Rue Belanger
+    city: Montreal
+    country: Canada
+    id: mhi
+    institution: Montreal Heart Institute
+    isni: 0000 0000 8995 9090
+    postal_code: H1T 1C8
+    region: Quebec
+    ror: https://ror.org/03vs03g62
+  authors:
+  - affiliations: polymtl; mhi
+    corresponding: true
+    email: agah.karakuzu@polymtl.ca
+    equal_contributor: true
+    github: agahkarakuzu
+    name: Agah Karakuzu
+    orcid: 0000-0001-7283-271X
+    roles:
+    - Conceptualization
+    - "Writing \u2013 original draft"
+    twitter: agahkarakuzu
+    url: https://agah.dev
+  banner: static/banner.jpg
   bibliography:
-    - paper.bib
+  - paper.bib
+  copyright: NeuroLibre
+  doi: 10.55458/neurolibre.00041
+  exclude:
+  - README.md
+  github: https://github.com/roboneurolibre/woven
+  keywords:
+  - reproducible publishing
+  - interactive articles
+  - reproducible research
+  - open science
+  - open access
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  numbering:
+    headings: true
+  open_access: true
+  subject: Living Preprint
+  title: 'Toward a woven  literature: Open-source infrastructure for reproducible
+    publishing'
+  toc:
+  - file: paper.md
+  venue: NeuroLibre
 site:
-  template: article-theme
+  actions:
+  - title: "\U0001F3E0 Home"
+    url: https://doi.org/10.55458/neurolibre.00041
   options:
     twitter: agahkarakuzu
+  template: article-theme
+version: 1
