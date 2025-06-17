@@ -56,7 +56,8 @@ It is only fair to retire the legacy publishing system with a new acronym: **BOO
 ## ***From BOOMER to next-gen publishing***
 
 :::{blockquote}
-Science is what we understand well enough to explain to a computer. Art is everything else we do. \[...\] People think that science is the art of geniuses, but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones. 
+Science is what we understand well enough to explain to a computer. Art is everything else we do. \[...\] People think that science is the art of geniuses, but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.
+
 -- Donald Knuth [@Knuth_Shustek_2021]
 :::
 
