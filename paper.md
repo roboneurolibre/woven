@@ -6,6 +6,9 @@ tags:
   - reproducible research
   - open science
   - open access
+authors:
+  - name: Agah Karakuzu
+    affiliation: "1, 2"
 affiliations:
  - name: NeuroPoly Lab, Polytechnique Montreal, Montreal, QC, Canada
    index: 1
@@ -13,18 +16,6 @@ affiliations:
    index: 2
 date: 17 June 2025
 bibliography: paper.bib
-exports:
-  - format: pdf
-    template: /Users/agah/Desktop/dev/evidencepub/templatex
-    output: exports/my-document.pdf
-    line_numbers: true
-    theme_color: "red"
-    data_doi: https://neurolibre.org
-    docker_doi: https://neurolibre.org
-    repo_doi: https://neurolibre.org
-    living_doi: https://neurolibre.org
-  - format: jats
-  - format: xml
 ---
 
 # Introduction
