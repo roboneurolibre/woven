@@ -42,6 +42,7 @@ project:
     - reproducible research
     - open science
     - open access
+    - networked open science publishing
   github: https://github.com/agahkarakuzu/woven
   banner: static/banner.jpg
   venue: Neurolibre #Production will override this.
