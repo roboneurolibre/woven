@@ -45,7 +45,7 @@ project:
   github: https://github.com/agahkarakuzu/woven
   banner: static/banner.jpg
   venue: Neurolibre #Production will override this.
-  subject: Living Preprint # Production will override this.
+  subject: Literature Review # Production will override this.
   numbering:
     headings: true
   doi: 10.55458/neurolibre.xxxxx # Production will override this.
