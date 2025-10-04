@@ -1,5 +1,5 @@
 # See docs at: https://mystmd.org/guide/frontmatter
-version: 2
+version: 1
 project:
   title: 'Toward a woven  literature: Open-source infrastructure for reproducible publishing'
   authors:
