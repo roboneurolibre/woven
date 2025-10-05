@@ -67,15 +67,15 @@ project:
   - reproducible research
   - open science
   - open access
+  - networked open science publishing
   license:
     code: MIT
     content: CC-BY-4.0
   numbering:
     headings: true
   open_access: true
-  subject: Living Preprint
-  title: 'Toward a woven  literature: Open-source infrastructure for reproducible
-    publishing'
+  subject: Literature review
+  title: 'Toward a woven  literature: Open-source infrastructure for reproducible publishing'
   toc:
   - file: paper.md
   venue: NeuroLibre
